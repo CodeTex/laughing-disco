@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "laughing-disco"
+version = "0.1.0"
+description = "Testing Starlite framework with a scheduler"
+authors = ["CodeTex <29424456+CodeTex@users.noreply.github.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "laughing_disco"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+starlite = "^1.48.1"
+httpx = "^0.23.3"
+numpy = "^1.24.1"
+uvicorn = "^0.20.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+isort = "^5.11.4"
+pytest = "^7.2.1"
+pytest-cov = "^4.0.0"
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
