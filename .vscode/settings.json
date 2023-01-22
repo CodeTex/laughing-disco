@@ -1,5 +1,10 @@
 {
   "python.linting.flake8Enabled": true,
   "python.linting.enabled": true,
-  "editor.formatOnSave": true
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  }
 }
