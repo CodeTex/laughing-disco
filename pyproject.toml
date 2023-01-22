@@ -16,6 +16,7 @@ uvicorn = "^0.20.0"
 rocketry = "^2.5.1"
 pydantic = "^1.10.4"
 python-dotenv = "^0.21.1"
+tinydb = "^4.7.1"
 
 [tool.poetry.group.dev.dependencies]
 black = "^22.12.0"

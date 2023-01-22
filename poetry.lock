@@ -1057,6 +1057,18 @@ standard = ["click (>=8.1.3)", "picologging", "rich (>=12.6.0)"]
 structlog = ["structlog"]
 
 [[package]]
+name = "tinydb"
+version = "4.7.1"
+description = "TinyDB is a tiny, document oriented database optimized for your happiness :)"
+category = "main"
+optional = false
+python-versions = ">=3.7,<4.0"
+files = [
+    {file = "tinydb-4.7.1-py3-none-any.whl", hash = "sha256:1534e498ca23f55c43b0f1e7c0cf174049498ab45a887c82ba9831e0f9868df3"},
+    {file = "tinydb-4.7.1.tar.gz", hash = "sha256:8955c239a79b8a6c8f637900152e2de38690848199d71d870c33c16405433ca5"},
+]
+
+[[package]]
 name = "typing-extensions"
 version = "4.4.0"
 description = "Backported and Experimental Type Hints for Python 3.7+"
@@ -1090,4 +1102,4 @@ standard = ["colorama (>=0.4)", "httptools (>=0.5.0)", "python-dotenv (>=0.13)",
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "a72d20d22e7fa87a33eb810b5be03cc8397fdd9f6da6102469a800973c222f8e"
+content-hash = "30f75cf17bb749a41af90b9889c92c834b38e17bbdbe2cb1c3d8597e583206c8"
