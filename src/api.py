@@ -1,7 +1,7 @@
 from starlite import LoggingConfig, Starlite
 
-from .core import api_settings
-from .routes import route_handlers
+from core import api_settings
+from routes import route_handlers
 
 
 app = Starlite(

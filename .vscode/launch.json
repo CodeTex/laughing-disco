@@ -1,6 +1,14 @@
 {
   "configurations": [
     {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/main.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
       "name": "Python: Run API server",
       "type": "python",
       "request": "launch",
