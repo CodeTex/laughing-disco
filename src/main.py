@@ -3,8 +3,8 @@ import logging
 
 import uvicorn
 
-from api import app as app_api
-from services.scheduler import app as app_scheduler
+from app.api import app as app_api
+from app.services.scheduler import app as app_scheduler
 
 
 class Server(uvicorn.Server):

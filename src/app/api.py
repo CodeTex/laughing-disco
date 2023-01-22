@@ -1,14 +1,14 @@
 from starlite import LoggingConfig, Starlite
 
-from core import api_settings
-from routes import route_handlers
+from .routes import route_handlers
+from .settings import settings
 
 
 app = Starlite(
     logging_config=LoggingConfig(
         loggers={
             "laughing-disco": {
-                "level": api_settings.LOG_LEVEL,
+                "level": settings.API_LOG_LEVEL,
                 "handlers": ["queue_listener"],
             }
         }

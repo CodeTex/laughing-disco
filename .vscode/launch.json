@@ -1,7 +1,7 @@
 {
   "configurations": [
     {
-      "name": "Python: Current File",
+      "name": "Python: Application",
       "type": "python",
       "request": "launch",
       "program": "${workspaceFolder}/src/main.py",
@@ -14,7 +14,7 @@
       "request": "launch",
       "module": "uvicorn",
       "args": [
-        "src.api:app",
+        "src.app.api:app",
         "--host",
         "localhost",
         "--port",
